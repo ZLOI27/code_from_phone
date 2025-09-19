@@ -1,7 +1,9 @@
 def du(node):
-    return [
+    result = [
         (get_name(child), get_size(child)) for child in get_children(node)
-    ]
+        ]
+    result.sort(key=lambda elem: elem[1], reverse=True)
+    return result
 
 
 def get_size(node):
