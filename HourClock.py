@@ -1,12 +1,12 @@
 class HourClock:
     def __init__(self):
-        self.hours = 0
+        self.hours_num = 0
 
     @property
     def hours(self):
-        return hours
+        return self.hours_num
 
     @hours.setter
     def hours(self, incom_hours):
-        self.hours = incom_hours % 12
-        return hours
+        self.hours_num = incom_hours % 12
+        return self.hours_num
