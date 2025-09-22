@@ -4,5 +4,5 @@ class LimitedCounter(Counter):
         self.limit = limit
 
     def inc(self, amount=1):
-        self.value = min(super().inc(amount), 10)
-
+        super().inc(amount)
+        self.value = min(self.value, 10)
