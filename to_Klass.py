@@ -1,8 +1,4 @@
-from dataclasses import dataclass
-
 @dataclass
-class Klass(object):
-    pass
 
 def to_Klass(data: dict):
     klass = Klass()
