@@ -10,3 +10,4 @@ def to_Klass(data: dict):
         setattr(klass, key, value)
     return klass
 
+klass = Klass()
