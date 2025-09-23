@@ -9,5 +9,3 @@ def to_Klass(data: dict):
     for key, value in data.items():
         setattr(klass, key, value)
     return klass
-
-klass = Klass()
