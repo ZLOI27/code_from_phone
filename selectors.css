@@ -1,0 +1,27 @@
+h1, h2, h3 {
+	color: #212121;
+}
+
+h1.articles {
+	font-size: 2em;
+}
+
+h2.articles {
+	font-size: 1.5em;
+}
+
+h3.articles {
+	font-size: 1em;
+}
+
+article.articles {
+	border-top: 1px solid #e5e5e5;
+}
+
+h3 + p {
+	padding: 20px;
+	font-size: 0.8em;
+	color: #686868
+	background-color: #f6f6f6
+	text-align: right;
+}
